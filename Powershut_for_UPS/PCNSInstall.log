@@ -1,0 +1,409 @@
+
+==============================================================================================
+2020-12-07 12:41:08 --- Installing PowerChute Network Shutdown 4.4.0 for Microsoft Windows 64-bit from Schneider Electric 
+2020-12-07 12:41:08    > .onInit
+2020-12-07 12:41:08    > Set LANGUAGE  to: 1033
+2020-12-07 12:41:08   Check for HyperV
+2020-12-07 12:41:08   HyperV Not Found:
+2020-12-07 12:41:08    > Checking Help Params: '"C:\Users\fedel\Desktop\Windows_x64\Setup-x64.exe" ' 
+2020-12-07 12:41:08    > no /?
+2020-12-07 12:41:08    > no /h
+2020-12-07 12:41:08    > no -h
+2020-12-07 12:41:08    > Check if it is already Running
+2020-12-07 12:41:08 --- Checking Requirements
+2020-12-07 12:41:08    > System LANG Code is: 1040.
+2020-12-07 12:41:08   Check for Existing PCNS installation
+2020-12-07 12:41:08   No Existing PCNS install.
+2020-12-07 12:41:08   No 32 bit Existing PCNS install.
+2020-12-07 12:41:08    > Set Finish Button To 'Finish'
+2020-12-07 12:41:08    > DetectJREInstall 1.8 or higher
+2020-12-07 12:41:08   Public JRE 1.8 found.
+2020-12-07 12:41:08    > Set JREHome=C:\Program Files\Java\jre1.8.0_271
+2020-12-07 12:41:08    > getBineryType returned 6
+2020-12-07 12:41:08   Detected supported public JRE 1.8.
+2020-12-07 12:41:08    > DetectServerCoreOS
+2020-12-07 12:41:11    > HeaderCustomise
+2020-12-07 12:41:11    > PCNSUpdatePage create
+2020-12-07 12:41:11    > ESXiCustomPage create
+2020-12-07 12:41:13    > PCNSUpdatePage create
+2020-12-07 12:41:14    > HeaderCustomise
+2020-12-07 12:41:18    > PCNSUpdatePage create
+2020-12-07 12:41:18    > ESXiCustomPage create
+2020-12-07 12:41:27    > ESXiPage_Callback
+2020-12-07 12:41:27    > State= 3
+2020-12-07 12:41:32    > ESXiPage_Callback
+2020-12-07 12:41:32    > State= 2
+2020-12-07 12:41:34    > ESXiPage_Callback
+2020-12-07 12:41:34    > State= 0
+2020-12-07 12:41:34    > Set ESXiSelected to 0
+2020-12-07 12:41:34    > Set AHVSelected to 0
+2020-12-07 12:41:34    > HyperVCustomPage create
+2020-12-07 12:41:34   Hyper-V not detected, skipping the select page.
+2020-12-07 12:41:34    > Browse is OK
+2020-12-07 12:41:36    > Configure the Confirm Page
+2020-12-07 12:41:37 --- Configure Java
+2020-12-07 12:41:37   Installing PowerChute Network Shutdown bundled private JRE
+2020-12-07 12:41:39    > SEC03 ESXISelected value is 0
+2020-12-07 12:41:39    > SEC03 AHVSelected value is 0
+2020-12-07 12:41:39    > SEC03 HyperVSelected value is 
+2020-12-07 12:41:39    > Installing English version
+2020-12-07 12:41:39    > EN Standard help installed in $StandardHelpPath
+2020-12-07 12:41:41 --- Installing PowerChute Network Shutdown
+2020-12-07 12:41:41 --- Installing PowerChute Network Shutdown Files.
+2020-12-07 12:41:42 --- Configuring registery settings.
+2020-12-07 12:41:42   Setup Uninstall entry
+2020-12-07 12:41:42   Setup Product ID
+2020-12-07 12:41:42 --- Adding Start Menu items.
+2020-12-07 12:41:42 --- Configuring Firewall Rules
+2020-12-07 12:41:52   Creating Firewall Rule: PowerChute Network Shutdown NMC Communication Port (UDP 3052)
+2020-12-07 12:41:53   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTP Web Interface Port (TCP 3052)
+2020-12-07 12:41:53   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTPS Web Interface Port (TCP 6547)
+2020-12-07 12:41:53 --- Configuring mll.cfg
+2020-12-07 12:41:53    > C:\Program Files\APC\PowerChute\jre_x64\bin\javaw.exe -Dfile.encoding=UTF-8 -cp .\lib;.\lib\m11.jar;.\comp\pcns.jar; com.apcc.pcns.m11cfginit.M11cfgInit  m11.cfg host.ApplicationDirectory=C:\Program Files\APC\PowerChute\group1 host.ComponentDirectory=C:\Program Files\APC\PowerChute\group1\comp Notifier.NotifierExe=C:\Program Files\APC\PowerChute\group1\bin\notifier
+2020-12-07 12:41:53    > Securing Permissions on Files
+2020-12-07 12:41:54    > SNMP Port is: '161'
+2020-12-07 12:41:54   SNMP Enabled, set up the ini file
+2020-12-07 12:41:54    > removePSScripts()
+2020-12-07 12:41:54    > VirtualInstall value is 
+2020-12-07 12:41:54    > HyperV not configured, remove hyperV specific scripts
+2020-12-07 12:41:54    > removeVSphereFolder()
+2020-12-07 12:41:54    > VirtualInstall value is 
+2020-12-07 12:41:54    > VMWare not configured, remove vsphere folder
+2020-12-07 12:41:54 --- Configuring Service
+2020-12-07 12:41:54    > Java is located in: C:\Program Files\APC\PowerChute\jre_x64
+2020-12-07 12:41:54   Starting service.
+2020-12-07 12:41:59   Service started.
+2020-12-07 12:41:59    > Configure the Finish Page
+2020-12-07 12:42:07    > onInstSuccess
+2020-12-07 12:42:07   Launching Configuration Wizard.
+
+==============================================================================================
+2020-12-07 16:53:15 --- Installing PowerChute Network Shutdown 4.4.0 for Microsoft Windows 64-bit from Schneider Electric 
+2020-12-07 16:53:15    > .onInit
+2020-12-07 16:53:15    > Set LANGUAGE  to: 1033
+2020-12-07 16:53:15   Check for HyperV
+2020-12-07 16:53:15   HyperV Not Found:
+2020-12-07 16:53:15    > Checking Help Params: '"C:\Users\fedel\Desktop\Powershut_for_UPS\Setup-x64.exe" ' 
+2020-12-07 16:53:15    > no /?
+2020-12-07 16:53:15    > no /h
+2020-12-07 16:53:15    > no -h
+2020-12-07 16:53:15    > Check if it is already Running
+2020-12-07 16:53:15 --- Checking Requirements
+2020-12-07 16:53:15    > System LANG Code is: 1040.
+2020-12-07 16:53:15   Check for Existing PCNS installation
+2020-12-07 16:53:15   No Existing PCNS install.
+2020-12-07 16:53:15   No 32 bit Existing PCNS install.
+2020-12-07 16:53:15    > Set Finish Button To 'Finish'
+2020-12-07 16:53:15    > DetectJREInstall 1.8 or higher
+2020-12-07 16:53:15   Public JRE 1.8 found.
+2020-12-07 16:53:15    > Set JREHome=C:\Program Files\Java\jre1.8.0_271
+2020-12-07 16:53:15    > getBineryType returned 6
+2020-12-07 16:53:15   Detected supported public JRE 1.8.
+2020-12-07 16:53:15    > DetectServerCoreOS
+2020-12-07 16:53:19    > HeaderCustomise
+2020-12-07 16:53:19    > PCNSUpdatePage create
+2020-12-07 16:53:19    > ESXiCustomPage create
+2020-12-07 16:53:23    > ESXiPage_Callback
+2020-12-07 16:53:23    > State= 2
+2020-12-07 16:53:24    > ESXiPage_Callback
+2020-12-07 16:53:24    > State= 0
+2020-12-07 16:53:24    > Set ESXiSelected to 0
+2020-12-07 16:53:24    > Set AHVSelected to 0
+2020-12-07 16:53:24    > HyperVCustomPage create
+2020-12-07 16:53:24   Hyper-V not detected, skipping the select page.
+2020-12-07 16:53:24    > Browse is OK
+2020-12-07 16:53:25    > Configure the Confirm Page
+2020-12-07 16:53:26 --- Configure Java
+2020-12-07 16:53:26   Installing PowerChute Network Shutdown bundled private JRE
+2020-12-07 16:53:28    > SEC03 ESXISelected value is 0
+2020-12-07 16:53:28    > SEC03 AHVSelected value is 0
+2020-12-07 16:53:28    > SEC03 HyperVSelected value is 
+2020-12-07 16:53:28    > Installing English version
+2020-12-07 16:53:28    > EN Standard help installed in $StandardHelpPath
+2020-12-07 16:53:30 --- Installing PowerChute Network Shutdown
+2020-12-07 16:53:30 --- Installing PowerChute Network Shutdown Files.
+2020-12-07 16:53:31 --- Configuring registery settings.
+2020-12-07 16:53:31   Setup Uninstall entry
+2020-12-07 16:53:31   Setup Product ID
+2020-12-07 16:53:31 --- Adding Start Menu items.
+2020-12-07 16:53:31 --- Configuring Firewall Rules
+2020-12-07 16:53:36   Creating Firewall Rule: PowerChute Network Shutdown NMC Communication Port (UDP 3052)
+2020-12-07 16:53:36   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTP Web Interface Port (TCP 3052)
+2020-12-07 16:53:37   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTPS Web Interface Port (TCP 6547)
+2020-12-07 16:53:37 --- Configuring mll.cfg
+2020-12-07 16:53:37    > C:\Program Files\APC\PowerChute\jre_x64\bin\javaw.exe -Dfile.encoding=UTF-8 -cp .\lib;.\lib\m11.jar;.\comp\pcns.jar; com.apcc.pcns.m11cfginit.M11cfgInit  m11.cfg host.ApplicationDirectory=C:\Program Files\APC\PowerChute\group1 host.ComponentDirectory=C:\Program Files\APC\PowerChute\group1\comp Notifier.NotifierExe=C:\Program Files\APC\PowerChute\group1\bin\notifier
+2020-12-07 16:53:37    > Securing Permissions on Files
+2020-12-07 16:53:38    > SNMP Port is: '161'
+2020-12-07 16:53:38   SNMP Enabled, set up the ini file
+2020-12-07 16:53:38    > removePSScripts()
+2020-12-07 16:53:38    > VirtualInstall value is 
+2020-12-07 16:53:38    > HyperV not configured, remove hyperV specific scripts
+2020-12-07 16:53:38    > removeVSphereFolder()
+2020-12-07 16:53:38    > VirtualInstall value is 
+2020-12-07 16:53:38    > VMWare not configured, remove vsphere folder
+2020-12-07 16:53:38 --- Configuring Service
+2020-12-07 16:53:38    > Java is located in: C:\Program Files\APC\PowerChute\jre_x64
+2020-12-07 16:53:38   Starting service.
+2020-12-07 16:53:43   Service started.
+2020-12-07 16:53:43    > Configure the Finish Page
+2020-12-07 16:53:48    > onInstSuccess
+2020-12-07 16:53:48   Launching Configuration Wizard.
+
+==============================================================================================
+2020-12-09 11:47:19 --- Installing PowerChute Network Shutdown 4.4.0 for Microsoft Windows 64-bit from Schneider Electric 
+2020-12-09 11:47:19    > .onInit
+2020-12-09 11:47:19    > Set LANGUAGE  to: 1033
+2020-12-09 11:47:19   Check for HyperV
+2020-12-09 11:47:19   HyperV Not Found:
+2020-12-09 11:47:19    > Checking Help Params: '"C:\Users\fedel\Desktop\Powershut_for_UPS\Setup-x64.exe" ' 
+2020-12-09 11:47:19    > no /?
+2020-12-09 11:47:19    > no /h
+2020-12-09 11:47:19    > no -h
+2020-12-09 11:47:19    > Check if it is already Running
+2020-12-09 11:47:19 --- Checking Requirements
+2020-12-09 11:47:19    > System LANG Code is: 1040.
+2020-12-09 11:47:19   Check for Existing PCNS installation
+2020-12-09 11:47:19   Found Existing PCNS version 4.4.0
+2020-12-09 11:47:19   Repairing PCNS by upgrading to the same version
+2020-12-09 11:47:19    > Set Finish Button To 'Finish'
+2020-12-09 11:47:19    > DetectJREInstall 1.8 or higher
+2020-12-09 11:47:19   Public JRE 1.8 found.
+2020-12-09 11:47:19    > Set JREHome=C:\Program Files\Java\jre1.8.0_271
+2020-12-09 11:47:19    > getBineryType returned 6
+2020-12-09 11:47:19   Detected supported public JRE 1.8.
+2020-12-09 11:47:19    > DetectServerCoreOS
+2020-12-09 11:47:22    > HeaderCustomise
+2020-12-09 11:47:27    > PCNSUpdatePage create
+2020-12-09 11:47:28    > ESXiCustomPage create
+2020-12-09 11:47:28    > HyperVCustomPage create
+2020-12-09 11:47:28   Upgrade using existing install directory: C:\Program Files\APC\PowerChute
+2020-12-09 11:47:28    > Configure the Confirm Page
+2020-12-09 11:47:29 --- Configure Java
+2020-12-09 11:47:29   Installing PowerChute Network Shutdown bundled private JRE
+2020-12-09 11:47:29    > Old_Application C:\Program Files\APC\PowerChute\jre_x64\bin\javaw.exe
+2020-12-09 11:47:29    > Old_Application Location: C:\Program Files\APC\PowerChute\jre_x64
+2020-12-09 11:47:29 --- Stopping previous version of service.
+2020-12-09 11:47:29    > Java found at 0 in C:\Program Files\APC\PowerChute\jre_x64
+2020-12-09 11:47:29   Upgrading, so deleting the old JRE from C:\Program Files\APC\PowerChute\jre_x64
+2020-12-09 11:47:31    > SEC03 ESXISelected value is 
+2020-12-09 11:47:31    > SEC03 AHVSelected value is 
+2020-12-09 11:47:31    > SEC03 HyperVSelected value is 
+2020-12-09 11:47:31    > Installing English version
+2020-12-09 11:47:31    > Deleting old help
+2020-12-09 11:47:32    > Previous installation had no virtualization support
+2020-12-09 11:47:32    > EN Standard help installed in $StandardHelpPath
+2020-12-09 11:47:33 --- Installing PowerChute Network Shutdown
+2020-12-09 11:47:33 --- Backup up existing install configuration to C:\Users\fedel\AppData\Local\Temp\PCNS
+2020-12-09 11:47:33    > Found C:\Program Files\APC\PowerChute\group1\m11.cfg
+2020-12-09 11:47:33    > Found C:\Users\fedel\AppData\Local\Temp\PCNS\m11.cfg
+2020-12-09 11:47:34   Removing previous version of service.
+2020-12-09 11:47:34 --- Installing PowerChute Network Shutdown Files.
+2020-12-09 11:47:35 --- Configuring registery settings.
+2020-12-09 11:47:35   Setup Uninstall entry
+2020-12-09 11:47:35   Setup Product ID
+2020-12-09 11:47:35 --- Adding Start Menu items.
+2020-12-09 11:47:35 --- Configuring Firewall Rules
+2020-12-09 11:47:38   Creating Firewall Rule: PowerChute Network Shutdown NMC Communication Port (UDP 3052)
+2020-12-09 11:47:38   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTP Web Interface Port (TCP 3052)
+2020-12-09 11:47:38   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTPS Web Interface Port (TCP 6547)
+2020-12-09 11:47:38 --- Restore Pre-Existing Settings
+2020-12-09 11:47:38    > Found C:\Users\fedel\AppData\Local\Temp\PCNS\m11.cfg
+2020-12-09 11:47:38    > Found C:\Program Files\APC\PowerChute\group1\m11.cfg
+2020-12-09 11:47:38    > Deleted C:\Program Files\APC\PowerChute\group1\m11.cfg
+2020-12-09 11:47:45 --- Upgrade ini conversion.
+2020-12-09 11:47:45    > EXECUTE: "C:\Program Files\APC\PowerChute\jre_x64\bin\javaw.exe" -Xms32m -Xmx64m  -Dfile.encoding=UTF-8 -cp .;comp\pcns.jar;lib\*; --add-opens java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED -DapplicationDirectory="C:\Program Files\APC\PowerChute" com.apcc.pcns.configservice.UpgradeIniConverter 
+2020-12-09 11:47:47    > Keeping Existing SNMP Settings
+2020-12-09 11:47:47    > removePSScripts()
+2020-12-09 11:47:47    > VirtualInstall value is 
+2020-12-09 11:47:47    > HyperV not configured, remove hyperV specific scripts
+2020-12-09 11:47:47    > removeVSphereFolder()
+2020-12-09 11:47:47    > VirtualInstall value is 
+2020-12-09 11:47:47    > VMWare not configured, remove vsphere folder
+2020-12-09 11:47:47 --- Configuring Service
+2020-12-09 11:47:47    > Java is located in: C:\Program Files\APC\PowerChute\jre_x64
+2020-12-09 11:47:47   Starting service.
+2020-12-09 11:47:52   Service started.
+2020-12-09 11:47:52    > Configure the Finish Page
+2020-12-09 11:48:03    > onInstSuccess
+2020-12-09 11:48:03   Upgrade complete. 
+2020-12-09 11:48:03   Launching Configuration Wizard.
+
+==============================================================================================
+2020-12-09 11:50:29 --- Installing PowerChute Network Shutdown 4.4.0 for Microsoft Windows 64-bit from Schneider Electric 
+2020-12-09 11:50:29    > .onInit
+2020-12-09 11:50:29    > Set LANGUAGE  to: 1033
+2020-12-09 11:50:29   Check for HyperV
+2020-12-09 11:50:29   HyperV Not Found:
+2020-12-09 11:50:29    > Checking Help Params: '"C:\Users\fedel\Desktop\Powershut_for_UPS\Setup-x64.exe" ' 
+2020-12-09 11:50:29    > no /?
+2020-12-09 11:50:29    > no /h
+2020-12-09 11:50:29    > no -h
+2020-12-09 11:50:29    > Check if it is already Running
+2020-12-09 11:50:29 --- Checking Requirements
+2020-12-09 11:50:29    > System LANG Code is: 1040.
+2020-12-09 11:50:30   Check for Existing PCNS installation
+2020-12-09 11:50:30   Found Existing PCNS version 4.4.0
+2020-12-09 11:50:30   Repairing PCNS by upgrading to the same version
+2020-12-09 11:50:30    > Set Finish Button To 'Finish'
+2020-12-09 11:50:30    > DetectJREInstall 1.8 or higher
+2020-12-09 11:50:30   Public JRE 1.8 found.
+2020-12-09 11:50:30    > Set JREHome=C:\Program Files\Java\jre1.8.0_271
+2020-12-09 11:50:30    > getBineryType returned 6
+2020-12-09 11:50:30   Detected supported public JRE 1.8.
+2020-12-09 11:50:30    > DetectServerCoreOS
+2020-12-09 11:50:32    > HeaderCustomise
+2020-12-09 11:50:32    > PCNSUpdatePage create
+2020-12-09 11:50:35    > HeaderCustomise
+2020-12-09 11:50:35    > PCNSUpdatePage create
+2020-12-09 11:50:36    > ESXiCustomPage create
+2020-12-09 11:50:36    > HyperVCustomPage create
+2020-12-09 11:50:36   Upgrade using existing install directory: C:\Program Files\APC\PowerChute
+2020-12-09 11:50:36    > Configure the Confirm Page
+2020-12-09 11:50:39   Upgrade using existing install directory: C:\Program Files\APC\PowerChute
+2020-12-09 11:50:39    > HyperVCustomPage create
+2020-12-09 11:50:39    > ESXiCustomPage create
+2020-12-09 11:50:39    > PCNSUpdatePage create
+
+==============================================================================================
+2020-12-09 11:53:59 --- Installing PowerChute Network Shutdown 4.4.0 for Microsoft Windows 64-bit from Schneider Electric 
+2020-12-09 11:53:59    > .onInit
+2020-12-09 11:53:59    > Set LANGUAGE  to: 1033
+2020-12-09 11:53:59   Check for HyperV
+2020-12-09 11:53:59   HyperV Not Found:
+2020-12-09 11:53:59    > Checking Help Params: '"C:\Users\fedel\Desktop\Powershut_for_UPS\Setup-x64.exe" ' 
+2020-12-09 11:53:59    > no /?
+2020-12-09 11:53:59    > no /h
+2020-12-09 11:53:59    > no -h
+2020-12-09 11:53:59    > Check if it is already Running
+2020-12-09 11:53:59 --- Checking Requirements
+2020-12-09 11:53:59    > System LANG Code is: 1040.
+2020-12-09 11:53:59   Check for Existing PCNS installation
+2020-12-09 11:53:59   No Existing PCNS install.
+2020-12-09 11:53:59   No 32 bit Existing PCNS install.
+2020-12-09 11:53:59    > Set Finish Button To 'Finish'
+2020-12-09 11:53:59    > DetectJREInstall 1.8 or higher
+2020-12-09 11:53:59   Public JRE 1.8 found.
+2020-12-09 11:53:59    > Set JREHome=C:\Program Files\Java\jre1.8.0_271
+2020-12-09 11:53:59    > getBineryType returned 6
+2020-12-09 11:53:59   Detected supported public JRE 1.8.
+2020-12-09 11:53:59    > DetectServerCoreOS
+2020-12-09 11:54:02    > HeaderCustomise
+2020-12-09 11:54:02    > PCNSUpdatePage create
+2020-12-09 11:54:02    > ESXiCustomPage create
+2020-12-09 11:54:06    > ESXiPage_Callback
+2020-12-09 11:54:06    > State= 3
+2020-12-09 11:54:07    > ESXiPage_Callback
+2020-12-09 11:54:07    > State= 0
+2020-12-09 11:54:07    > Set ESXiSelected to 1
+2020-12-09 11:54:07    > Set AHVSelected to 0
+2020-12-09 11:54:07    > HyperVCustomPage create
+2020-12-09 11:54:07   Hyper-V not detected, skipping the select page.
+2020-12-09 11:54:07    > Browse is OK
+2020-12-09 11:54:08    > Configure the Confirm Page
+2020-12-09 11:54:10 --- Configure Java
+2020-12-09 11:54:10   Installing PowerChute Network Shutdown bundled private JRE
+2020-12-09 11:54:11    > SEC03 ESXISelected value is 1
+2020-12-09 11:54:11    > SEC03 AHVSelected value is 0
+2020-12-09 11:54:11    > SEC03 HyperVSelected value is 
+2020-12-09 11:54:11    > Installing English version
+2020-12-09 11:54:11    > EN VMWare help installed in $VMwareHelpPath 
+2020-12-09 11:54:14 --- Installing PowerChute Network Shutdown
+2020-12-09 11:54:14 --- Installing PowerChute Network Shutdown Files.
+2020-12-09 11:54:16 --- Configuring registery settings.
+2020-12-09 11:54:16   Setup Uninstall entry
+2020-12-09 11:54:16   Setup Product ID
+2020-12-09 11:54:16 --- Adding Start Menu items.
+2020-12-09 11:54:16 --- Configuring Firewall Rules
+2020-12-09 11:54:18   Creating Firewall Rule: PowerChute Network Shutdown NMC Communication Port (UDP 3052)
+2020-12-09 11:54:18   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTP Web Interface Port (TCP 3052)
+2020-12-09 11:54:18   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTPS Web Interface Port (TCP 6547)
+2020-12-09 11:54:19 --- Configuring mll.cfg
+2020-12-09 11:54:19    > C:\Program Files\APC\PowerChute\jre_x64\bin\javaw.exe -Dfile.encoding=UTF-8 -cp .\lib;.\lib\m11.jar;.\comp\pcns.jar; com.apcc.pcns.m11cfginit.M11cfgInit  m11.cfg host.ApplicationDirectory=C:\Program Files\APC\PowerChute\group1 host.ComponentDirectory=C:\Program Files\APC\PowerChute\group1\comp Notifier.NotifierExe=C:\Program Files\APC\PowerChute\group1\bin\notifier
+2020-12-09 11:54:19    > Securing Permissions on Files
+2020-12-09 11:54:20    > SNMP Port is: '161'
+2020-12-09 11:54:20   SNMP Enabled, set up the ini file
+2020-12-09 11:54:20    > removePSScripts()
+2020-12-09 11:54:20    > VirtualInstall value is VMWare
+2020-12-09 11:54:20    > HyperV not configured, remove hyperV specific scripts
+2020-12-09 11:54:20    > removeVSphereFolder()
+2020-12-09 11:54:20    > VirtualInstall value is VMWare
+2020-12-09 11:54:20    > VMWare configured, keep folder
+2020-12-09 11:54:20 --- Configuring Service
+2020-12-09 11:54:20    > Java is located in: C:\Program Files\APC\PowerChute\jre_x64
+2020-12-09 11:54:20   Starting service.
+2020-12-09 11:54:25   Service started.
+2020-12-09 11:54:25    > Configure the Finish Page
+2020-12-09 11:54:27    > onInstSuccess
+2020-12-09 11:54:27   Launching Configuration Wizard.
+
+==============================================================================================
+2020-12-09 12:02:39 --- Installing PowerChute Network Shutdown 4.4.0 for Microsoft Windows 64-bit from Schneider Electric 
+2020-12-09 12:02:39    > .onInit
+2020-12-09 12:02:39    > Set LANGUAGE  to: 1033
+2020-12-09 12:02:39   Check for HyperV
+2020-12-09 12:02:39   HyperV Not Found:
+2020-12-09 12:02:39    > Checking Help Params: '"C:\Users\fedel\Desktop\Powershut_for_UPS\Setup-x64.exe" ' 
+2020-12-09 12:02:39    > no /?
+2020-12-09 12:02:39    > no /h
+2020-12-09 12:02:39    > no -h
+2020-12-09 12:02:39    > Check if it is already Running
+2020-12-09 12:02:39 --- Checking Requirements
+2020-12-09 12:02:39    > System LANG Code is: 1040.
+2020-12-09 12:02:39   Check for Existing PCNS installation
+2020-12-09 12:02:39   No Existing PCNS install.
+2020-12-09 12:02:39   No 32 bit Existing PCNS install.
+2020-12-09 12:02:39    > Set Finish Button To 'Finish'
+2020-12-09 12:02:39    > DetectJREInstall 1.8 or higher
+2020-12-09 12:02:39   Public JRE 1.8 found.
+2020-12-09 12:02:39    > Set JREHome=C:\Program Files\Java\jre1.8.0_271
+2020-12-09 12:02:39    > getBineryType returned 6
+2020-12-09 12:02:39   Detected supported public JRE 1.8.
+2020-12-09 12:02:39    > DetectServerCoreOS
+2020-12-09 12:02:43    > HeaderCustomise
+2020-12-09 12:02:43    > PCNSUpdatePage create
+2020-12-09 12:02:43    > ESXiCustomPage create
+2020-12-09 12:02:45    > ESXiPage_Callback
+2020-12-09 12:02:45    > State= 2
+2020-12-09 12:02:47    > ESXiPage_Callback
+2020-12-09 12:02:47    > State= 0
+2020-12-09 12:02:47    > Set ESXiSelected to 0
+2020-12-09 12:02:47    > Set AHVSelected to 0
+2020-12-09 12:02:47    > HyperVCustomPage create
+2020-12-09 12:02:47   Hyper-V not detected, skipping the select page.
+2020-12-09 12:02:47    > Browse is OK
+2020-12-09 12:02:48    > Configure the Confirm Page
+2020-12-09 12:02:50 --- Configure Java
+2020-12-09 12:02:50   Installing PowerChute Network Shutdown bundled private JRE
+2020-12-09 12:02:51    > SEC03 ESXISelected value is 0
+2020-12-09 12:02:51    > SEC03 AHVSelected value is 0
+2020-12-09 12:02:51    > SEC03 HyperVSelected value is 
+2020-12-09 12:02:51    > Installing English version
+2020-12-09 12:02:51    > EN Standard help installed in $StandardHelpPath
+2020-12-09 12:02:53 --- Installing PowerChute Network Shutdown
+2020-12-09 12:02:53 --- Installing PowerChute Network Shutdown Files.
+2020-12-09 12:02:55 --- Configuring registery settings.
+2020-12-09 12:02:55   Setup Uninstall entry
+2020-12-09 12:02:55   Setup Product ID
+2020-12-09 12:02:55 --- Adding Start Menu items.
+2020-12-09 12:02:55 --- Configuring Firewall Rules
+2020-12-09 12:03:01   Creating Firewall Rule: PowerChute Network Shutdown NMC Communication Port (UDP 3052)
+2020-12-09 12:03:01   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTP Web Interface Port (TCP 3052)
+2020-12-09 12:03:01   Creating Firewall Rule: PowerChute Network Shutdown Group 1 HTTPS Web Interface Port (TCP 6547)
+2020-12-09 12:03:01 --- Configuring mll.cfg
+2020-12-09 12:03:01    > C:\Program Files\APC\PowerChute\jre_x64\bin\javaw.exe -Dfile.encoding=UTF-8 -cp .\lib;.\lib\m11.jar;.\comp\pcns.jar; com.apcc.pcns.m11cfginit.M11cfgInit  m11.cfg host.ApplicationDirectory=C:\Program Files\APC\PowerChute\group1 host.ComponentDirectory=C:\Program Files\APC\PowerChute\group1\comp Notifier.NotifierExe=C:\Program Files\APC\PowerChute\group1\bin\notifier
+2020-12-09 12:03:02    > Securing Permissions on Files
+2020-12-09 12:03:02    > SNMP Port is: '161'
+2020-12-09 12:03:02   SNMP Enabled, set up the ini file
+2020-12-09 12:03:02    > removePSScripts()
+2020-12-09 12:03:02    > VirtualInstall value is 
+2020-12-09 12:03:02    > HyperV not configured, remove hyperV specific scripts
+2020-12-09 12:03:02    > removeVSphereFolder()
+2020-12-09 12:03:02    > VirtualInstall value is 
+2020-12-09 12:03:02    > VMWare not configured, remove vsphere folder
+2020-12-09 12:03:02 --- Configuring Service
+2020-12-09 12:03:02    > Java is located in: C:\Program Files\APC\PowerChute\jre_x64
+2020-12-09 12:03:02   Starting service.
+2020-12-09 12:03:07   Service started.
+2020-12-09 12:03:07    > Configure the Finish Page
+2020-12-09 12:03:11    > onInstSuccess
+2020-12-09 12:03:11   Launching Configuration Wizard.
